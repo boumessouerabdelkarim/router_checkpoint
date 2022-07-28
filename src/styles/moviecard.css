@@ -1,0 +1,25 @@
+.movie-card{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 14px 14px 15px -11px rgba(189,21,204,0.75);
+    -webkit-box-shadow: 14px 14px 15px -11px rgba(189,21,204,0.75);
+    -moz-box-shadow: 14px 14px 15px -11px rgba(189,21,204,0.75);    position: relative;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+color:white
+}
+
+.movie-card img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.movie-info{
+    padding: 10px;
+}
+   

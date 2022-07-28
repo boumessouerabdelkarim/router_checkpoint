@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(11, 11, 11);
+    padding: 20px;
+    padding-right: 100px;
+}
+.navbar h1{
+    color: red;
+}
+
+.Filter input{
+    padding: 5px;
+}

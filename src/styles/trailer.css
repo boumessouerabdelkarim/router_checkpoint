@@ -1,0 +1,32 @@
+.card{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 99999999999999999;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    align-content: space-around;
+    gap: 40px;
+    padding: 30px;
+    background-color: rgb(238, 227, 227);
+}
+.card img{
+    height: 50%;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 14px 14px 15px -11px rgba(189,21,204,0.75);
+    -webkit-box-shadow: 14px 14px 15px -11px rgba(189,21,204,0.75);
+    -moz-box-shadow: 14px 14px 15px -11px rgba(189,21,204,0.75); 
+    top: 0;
+    z-index: -1;}
+    .info{
+        padding: 10px;
+    }
+    .info h1{
+        color: aqua;
+    }
